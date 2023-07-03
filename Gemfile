@@ -26,7 +26,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem 'active_model_serializers'
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
 end
@@ -36,6 +36,6 @@ group :test do
   gem 'shoulda-matchers', '~> 4.0'
 end
 
-gem "faker", "~> 2.18"
-
-gem "active_model_serializers", "~> 0.10.12"
+# gem "faker", "~> 2.18"
+gem 'faker', '~> 3.2'
+# gem "active_model_serializers", "~> 0.10.12"
